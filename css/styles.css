@@ -4,6 +4,7 @@ li {
 nav {
     background-color: black;
     height: 5rem;
+    text-align: center;
 }
 h1 {
     text-align: center;
@@ -13,4 +14,6 @@ h1 {
 footer {
     background-color: black;
     height: 5rem;
+    color: white;
+    text-align: center;
 }
