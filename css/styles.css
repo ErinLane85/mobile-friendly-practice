@@ -10,3 +10,7 @@ h1 {
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+footer {
+    background-color: black;
+    height: 5rem;
+}
