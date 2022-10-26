@@ -1,0 +1,12 @@
+li {
+    display: inline-block;
+}
+nav {
+    background-color: black;
+    height: 5rem;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
