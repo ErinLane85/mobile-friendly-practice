@@ -8,13 +8,12 @@
     position: relative;
     text-align: center;
     overflow: hidden;
+    background-color: #fff;
 }
-.text-container {
+.wave-container h1 {
     position: absolute;
-    top: 10rem;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 25%;
+    left: 43%;
     color: white;
 }
 footer {
@@ -29,12 +28,22 @@ footer {
 h2 {
     text-transform: uppercase;
     color: rgba(9,109,121,1);
+    letter-spacing: 5px;
 }
 .section1 {
     text-align: left;
-    padding: 1rem 12rem 2rem 12rem;
+    padding: 1rem 10rem 2rem;
 }
 .section2 {
     text-align: right;
-    padding: 0rem 12rem 2rem 12rem;
+    padding: 0rem 10rem 2rem;
+}
+header {
+    min-width: 100%;
+}
+
+@media only screen and (max-width:400px) {
+    .section1 .section2 {
+        padding: 0rem; 
+    }
 }
