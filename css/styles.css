@@ -38,12 +38,26 @@ h2 {
     text-align: right;
     padding: 0rem 10rem 2rem;
 }
-header {
-    min-width: 100%;
-}
 
-@media only screen and (max-width:400px) {
-    .section1 .section2 {
-        padding: 0rem; 
+@media only screen and (max-width:1000px) {
+    main {
+        padding: 0;
     }
 }
+
+@media only screen and (max-width:1024px) {
+    .wave-container {
+        background-color: hotpink; 
+    }
+}
+@media only screen and (max-width:768px) {
+    .wave-container {
+        background-color: green; 
+    }
+}
+@media only screen and (max-width:480px) {
+    .wave-container {
+        background-color: yellow; 
+    }
+}
+
